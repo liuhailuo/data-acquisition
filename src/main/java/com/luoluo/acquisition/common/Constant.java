@@ -1,4 +1,4 @@
-package com.chen.common;
+package com.luoluo.acquisition.common;
 
 public class Constant {
 

@@ -28,7 +28,7 @@
         </triggeringPolicy>
     </appender>
 
-    <logger name="com.chen" level="INFO"/>
+    <logger name="com.luoluo" level="INFO"/>
 
     <!-- 日志输出级别 -->
     <root level="INFO">

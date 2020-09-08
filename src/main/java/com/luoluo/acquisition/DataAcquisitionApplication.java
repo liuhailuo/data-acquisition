@@ -1,13 +1,12 @@
-package com.chen;
+package com.luoluo.acquisition;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-public class KafkaApplication {
+public class DataAcquisitionApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(KafkaApplication.class, args);
+        SpringApplication.run(DataAcquisitionApplication.class, args);
     }
 }

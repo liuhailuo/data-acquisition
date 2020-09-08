@@ -1,4 +1,4 @@
-package com.chen.model;
+package com.luoluo.acquisition.model.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
@@ -21,7 +21,6 @@ import java.util.Date;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@ToString
 public class NewsDto implements Serializable {
     @Id
     private Long Id;

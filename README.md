@@ -1,21 +1,6 @@
-1.下载kafka安装包、并安装：
-
-    下载地址：http://kafka.apache.org/
-    
-        
-    安装:
-    tar -zxvf kafka_2.11-0.11.0.0.tgz
-2.修改kafka配置文件 server.properties 加入如下配置：
-
-    listeners=PLAINTEXT://192.168.0.195:9092      #使其他主机访问
-    auto.create.topics.enable = true       #自动创建topic
-
-3.开启9092端口，使外部可以访问。
-
-4.启动kafka：
-
-    cd kafka_2.11-0.11.0.0
-    bin/zookeeper-server-start.sh config/zookeeper.properties &  # 先启动zookeeper
-    bin/kafka-server-start.sh config/server.properties & # 启动kafka服务
-
-5.打开项目选择KafkaApplication并运行。
+  git init  
+  git add .  
+  git commit -m "first commit"  （first commit 本次提交的内容）  
+  git remote add origin https://github.com/852172891/test3.git （地址换成你建的项目的地址，不知道的话看下边 项目地址是哪个的图）  
+  git push -u origin master  （这一句执行的时候 可能需要输入你的 git 账号 和密码）  
+           

@@ -1,4 +1,4 @@
-package com.chen.common;
+package com.luoluo.acquisition.model.po;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -6,11 +6,11 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 import java.io.Serializable;
+import java.util.Date;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@ToString
 public class News implements Serializable {
     private String pagetype;
 
@@ -40,7 +40,7 @@ public class News implements Serializable {
 
     private String poster;
 
-    private String Id;
+    private Long Id;
 
-    private String createTime;
+    private Date createTime;
 }

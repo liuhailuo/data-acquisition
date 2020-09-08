@@ -20,7 +20,7 @@ spring:
       type: batch
     consumer:
       # 每次最多消费条数
-      max-poll-records: 100000
+      max-poll-records: 200000
       # kafka重复消费
       auto-offset-reset: earliest
 kafka:
@@ -28,3 +28,8 @@ kafka:
   topic: topic-jy5
   #主题消费分组
   group: jydata
+elasticSearch:
+  hostlist: master:9200,slave001:9200,slave002:9200,slave003:9200,slave004:9200,slave005:9200
+  client:
+    connectNum: 20
+    connectPerRoute: 50
